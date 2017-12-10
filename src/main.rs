@@ -19,5 +19,10 @@ fn translate(ch: char) -> char {
         return char::from_u32(33 + ((code_point + 14) % 94)).unwrap();
     }
 
+    /*
+     * If the character is not within the range of printable ascii characters,
+     * then just implicitly return the character as something we can't
+     * convert.
+     */
     ch
 }
