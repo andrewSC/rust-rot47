@@ -1,0 +1,5 @@
+[package]
+
+name = "rust-rot47"
+version = "0.0.1"
+authors = [ "Andrew Crerar <2?5C6Ho4C6C2C]:@> (rot47)" ]
